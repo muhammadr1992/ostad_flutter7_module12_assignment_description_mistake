@@ -142,7 +142,6 @@ class ContentArea extends StatelessWidget {
           SizedBox(height: 40),
           ElevatedButton(
             onPressed: () {},
-            child: Text('JOIN COURSE'),
             style: ElevatedButton.styleFrom(
               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20), backgroundColor: Colors.green,
               textStyle: TextStyle(fontSize: 20),
