@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Ostad Online University'),
+        title: Text('Ostad Online university'),
       ),
       drawer: MediaQuery.of(context).size.width < 600
           ? Drawer(
@@ -126,7 +126,7 @@ class ContentArea extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'OSTAD FLUTTER BATCH 7',
+            'OSTAD FLUTTER\nBATCH 7',
             style: TextStyle(
               fontSize: 48,
               fontWeight: FontWeight.bold,
@@ -142,7 +142,7 @@ class ContentArea extends StatelessWidget {
           SizedBox(height: 40),
           ElevatedButton(
             onPressed: () {},
-            child: Text('JOIN COURSE'),
+            child: Text('JOIN FLUTTER COURSE'),
             style: ElevatedButton.styleFrom(
               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20), backgroundColor: Colors.green,
               textStyle: TextStyle(fontSize: 20),
@@ -153,4 +153,5 @@ class ContentArea extends StatelessWidget {
     );
   }
 }
+
 
